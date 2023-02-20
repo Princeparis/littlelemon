@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'restaurant',
-    
+
 ]
 
 MIDDLEWARE = [
@@ -79,6 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'reservation',
+        'USERNAME': 'root'
     }
 }
 
