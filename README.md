@@ -42,9 +42,9 @@ pip install pipenv
 ```bash
 # .env
 DATABASE = YOUR_MYSQL_DATABASE_NAME
-USER     = YOUR_USERNAME             # default is root
+USER     = YOUR_USERNAME
 PASSWORD = YOUR_MYSQL_PASSWORD
-HOST     = localhost                 # or 127.0.0.1
+HOST     = localhost
 PORT     = 3306
 ```
 
