@@ -1,3 +1,6 @@
 .DS_Store
 # The environment
 .env
+
+# Cached files
+**/__pycache__
