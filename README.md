@@ -37,7 +37,7 @@ This is the capstone project of [Meta Back-End Developer Certificate](https://ww
 pip install pipenv
 ```
 
-### 2. Create a `.env` file in the root folder
+### 2.1. Create a `.env` file in the root folder
 
 ```bash
 # .env
@@ -46,6 +46,12 @@ USER     = YOUR_USERNAME
 PASSWORD = YOUR_MYSQL_PASSWORD
 HOST     = localhost
 PORT     = 3306
+```
+
+### 2.2. Install the `python-dotenv`
+
+```bash
+pipenv install python-dotenv
 ```
 
 ### 3. Install dependencies
